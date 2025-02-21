@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="/scripts.js"></script>
+    <script src="https://unpkg.com/gsap@3/dist/gsap.min.js"></script>
+    <title>Slorts</title>
+</head>
+<body>
+
+
+	<!-- Container for displaying toast notifications -->
+	<div id="toast-container" class="toast-container position-fixed top-0 end-1 p-3"></div>
+
+
+	<!-- Slot machine reels section -->
+	<div class="slot-machine">
+		<div class="reel">
+			<div class="icon-container"></div>
+		</div>
+		<div class="reel">
+			<div class="icon-container"></div>
+		</div>
+		<div class="reel">
+			<div class="icon-container"></div>
+		</div>
+	</div>
+
+	<!-- Controls for betting and spinning -->
+	<div class="controls">
+
+        <!-- Display for winnings or game messages -->
+	<div id="winnings-display" class="digital-screen">
+		<div id="result" class="result">$500 Bets!</div>
+	</div>
+
+		<!-- Displays the user's current balance -->
+		<div id="balance-display" class="digital-screen small-screen">
+			💵 Balance: $<span id="balance">100</span>
+		</div>
+
+		<!-- Buttons for setting the bet amount -->
+
+
+
+		<!-- Container for action buttons (spin, reset, help) -->
+		<div class="button-container">
+			<!-- Spin button to start the slot machine -->
+			
+
+			<!-- Reset button to reset the game -->
+			<button id="reset-button" class="reset-button">
+				
+			</button>
+
+			
+		</div>
+
+		
+	</div>
+
+	
+
+	<!-- Paper displaying possible winning combinations and their multipliers -->
+	<div class="key"> 
+        <p>^</p>
+        <div class="winning-chart">
+        </div>
+    </div>  
+    <button class="button spin-button" >
+				
+    </button> 
+</body>
+</html>
