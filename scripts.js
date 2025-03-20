@@ -12,7 +12,7 @@ const multipliers = {
 
 // Track the current Y position of each reel
 let currentYPositions = [0, 0, 0];
-let balance = 100; // Starting balance
+let balance = 1000; // Starting balance
 let currentBet = 0.6; // Default bet amount
 
 // Function to generate a random symbol
